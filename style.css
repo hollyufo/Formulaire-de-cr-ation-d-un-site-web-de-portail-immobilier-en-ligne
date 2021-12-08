@@ -1,0 +1,47 @@
+body{
+    background-image: url(./TuVAKb.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+img {
+    max-width:100%;
+    max-height:100%;
+}
+.container1{
+    background-color: whitesmoke;
+    width: 60%;
+    height: 80%;
+    margin: auto;
+    border-radius: 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.sec1{
+    margin: 30px;
+    width: 27%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 30px;
+    border-radius: 40px;
+}
+#radius{
+    margin-left: 12%;
+}
+#max{
+    margin-bottom: 20px;
+}
+#type{
+    margin-top: 20px;
+}
+.sec2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.checkox{
+    padding-left: 10px;
+}

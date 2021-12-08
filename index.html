@@ -9,8 +9,65 @@
     <title>choose house</title>
 </head>
 <body>
-    <form action="">
-        
+
+    <form action="" class="container1">
+        <div class="part1">
+            <h1>Owning a home ? easier then you think</h1>
+            <p>Get real reviews from real residents about real neighborhoods. The What Locals Say feature lets residents share what they love about living in their neighborhood.</p>
+        </div>
+        <div class="part2">
+<!---------------------------------------------radius search------------------------------------------------------------------------------------------>
+            <div class="sec1">
+                <h3>set your radius</h3>
+                <label for="radius">radius search :</label>
+                <select id="radius">
+                <option value="5km">5km</option>
+                <option value="10km">10km</option>
+                <option value="20km">20km</option>
+                <option value="50km">50km</option>
+                <option value="100km">100km</option>
+                <option value="200km">200km</option>
+                </select>
+            </div>
+<!-----------------------------------------------price selection--------------------------------------------------------------------------------------->
+            <div class="sec1">
+                <h3>set your price</h3>
+                <input type="text" name="" id="max" placeholder="max min">
+                <input type="text" name="" id="min" placeholder="max price">
+            </div>
+<!-----------------------------------------------number of rooms--------------------------------------------------------------------------------------->
+            <div class="sec1">
+                <h3>choos the number of rooms</h3>
+                <label for="rooms">number of room :</label>
+                <select id="rooms">
+                <option value="2 rooms">2 rooms</option>
+                <option value="3 rooms">3 rooms</option>
+                <option value="4 rooms">4 rooms</option>
+                <option value="5 rooms">5 rooms</option>
+                <option value="6 rooms">6 rooms</option>
+                <option value="7 rooms">7 rooms</option>
+                </select>
+            </div>
+<!-----------------------------------------------type of houses--------------------------------------------------------------------------------------->
+            <div class="sec1">
+                <h3>choose type of property</h3>
+                <label for="type">type of property :</label>
+                <select id="type">
+                <option value="Single-family homes">Single-family homes</option>
+                <option value="Apartments">Apartments</option>
+                <option value="Townhouses">Townhouses</option>
+                <option value="Condos">Condos</option>
+                <option value="Mansions and McMansions">Mansions and McMansions</option>
+                <option value="Co-ops">Co-ops</option>
+                </select>
+            </div>
+<!-----------------------------------------------check box fo sold home--------------------------------------------------------------------------------------->
+            <div class="sec1 sec2">
+                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                <label for="" class="checkox">unclude sold houses</label><br>
+            </div>
+        </div>
+
     </form>
 </body>
 </html>
