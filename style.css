@@ -23,7 +23,7 @@ img {
 }
 .sec1{
     margin: 30px;
-    width: 27%;
+    width: 67%;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     padding: 30px;
     border-radius: 40px;
@@ -44,4 +44,28 @@ img {
 }
 .checkox{
     padding-left: 10px;
+    padding-right: 10px;
+}
+.part1{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.slogan1{
+    margin-bottom: 30px;
+}
+select{
+    border-radius: 10px;
+    outline: none;
+    -webkit-appearance: none;
+    border: solid 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+input{
+    outline: none;
+    border-radius: 10px;
+    border: solid 1px;
+
 }
